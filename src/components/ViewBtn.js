@@ -3,10 +3,15 @@ import Button from "@material-tailwind/react/Button";
 import Icon from "@material-tailwind/react/Icon";
 import Tooltips from "@material-tailwind/react/Tooltips";
 import TooltipsContent from "@material-tailwind/react/TooltipsContent";
+import {
+    useHistory,
+} from "react-router-dom";
+
 
 export default function ViewButton(props) {
+    let history = useHistory();
     function View(data){
-        console.log(data);
+        history.push(data);
     };
     const viewBtnRef = useRef();
     return (

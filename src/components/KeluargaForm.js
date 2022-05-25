@@ -100,7 +100,7 @@ export default function KeluargaForm() {
                 </div>
             </CardHeader>
             <CardBody>
-                <form>
+                <form onSubmit={ submit }>
                     <div className="w-full mb-6">
                         <h6 className="bg-blue-100 py-2 text-center mb-3 text-blue-500 text-base font-semibold uppercase">
                             Data RT

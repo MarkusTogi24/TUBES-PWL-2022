@@ -1,8 +1,7 @@
 {
-  "name": "material-tailwind-dashboard-react",
+  "name": "sistem-informasi-kependudukan-way-huwi",
   "version": "1.1.0",
   "private": true,
-  "homepage": "https://demos.creative-tim.com/material-tailwind-dashboard-react/#/",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",

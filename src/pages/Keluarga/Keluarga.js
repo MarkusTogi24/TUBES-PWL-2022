@@ -52,7 +52,7 @@ const columns = [
             customBodyRender: (value, meta) => {
                 return (
                     <div className="flex gap-1">
-                        <ViewButton link={`Dilihat ${meta.rowData[1]}`}/>
+                        <ViewButton link={`/lihatkeluarga/${meta.rowData[1]}`}/>
                         <EditButton link={`Diedit ${meta.rowData[1]}`} />
                         <DeleteButton link={`Dihapus ${meta.rowData[1]}`} />
                     </div>
